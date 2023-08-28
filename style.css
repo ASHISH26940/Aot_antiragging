@@ -1,0 +1,456 @@
+@font-face {
+    font-family: test;
+    src: url(./img/JosefinSans-Thin.ttf);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: test;
+    overflow:hidden;
+}
+/* overlay */
+.overlay{
+    position: absolute;
+    z-index:-3;
+    left:-3em;
+    width:400vw;
+    height:170vh;
+    /* background-color:rgb(235, 235, 235,.6); */
+    transform: rotate(11.37deg);
+}
+.nav{
+    z-index: -1;
+    position: relative;
+    display: flex;
+    height:9em;
+    justify-content: space-between;
+    /* background-color:rgb(235, 235, 235,.6); */
+    font-weight: bold;
+}
+
+.pt-1{
+    height:6em;
+    overflow: hidden;
+}
+.pt-2{
+    overflow: hidden;
+    height:6em;
+    border-left:.005em solid #222 ;
+}
+
+/* .txt1box{
+    width:18em;
+    height:12em;
+    position: relative;
+} */
+
+/* btns */
+.btn{
+    position: relative;
+    background: transparent;
+    padding:.4em;
+    border:none;
+    cursor:pointer;
+    font-size: 34px;
+    top:2em;
+    margin-left:2em;
+    margin-bottom:2em;
+    border-radius: 4%;
+}
+
+.btn:hover{
+    background: #45a049;
+    color:white;
+}
+
+ul{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* .pt-2 #tst{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+} */
+
+li{
+    position: relative;
+    list-style: none;
+    padding:1.5em;
+    margin:1em;
+}
+a{
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+} 
+
+.img{
+    position: relative;
+    scale:.6;
+    right:2em;
+    height: 8em;    
+    top:-.5em;
+    mix-blend-mode: multiply;
+}
+
+.img-1{
+    /* object-fit: cover; */
+    background-repeat:none ;
+    height:8em;
+    position:relative;
+    width:10em;
+    z-index: 1;
+}
+
+/* seperator */
+.seperator{
+    position: relative;
+    background: #000;
+    top:-3em;
+    left:25%;
+    height: 0.004em;    
+    width:100%;
+}
+
+.pg-1{
+    position:relative;
+    width:100%;
+    height:85vh;
+    display:flex;
+}
+
+.pg-1 img{
+    position: relative;
+    width:44%;
+    height:44%;
+    mix-blend-mode:multiply;
+    left:50%;
+    
+}
+
+.txt1box{
+    overflow-y: hidden;
+    position: relative;
+    width:60%;
+    height:14em;
+    top:13%;
+    font-size: 18px;
+    left:10%;
+}
+
+.card{
+    width:15em;
+    height:20em;
+    position: relative;
+    z-index: 3;
+    margin-right:5em;
+    right:4em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+
+.card img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+
+.pg-2{
+    width:100%;
+    height:100vh;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.txtboxs{
+    width:40%;
+
+    height:90%;
+    word-break: break-all;
+}
+
+p{
+    font-size: 30px;
+}
+
+
+#imp2{
+    font-size: 54px;
+    font-weight: bold;
+
+}
+
+h2{
+    position: relative;
+}
+
+/* transitions between pages containing navbar and the second*/
+
+
+.txt-box-under-des{
+    position: relative; 
+    font-size:44px;
+    position: relative;
+    width:10em;
+    height:3.8em;
+    top:-10em;
+    left:8%;
+    z-index: 1;
+}
+
+.sep-prt2{
+    position: relative;
+    width:9.5%;
+    height:.05em;
+    top:-28.5em;
+    left:8%;
+    background-color: #222;
+}
+
+::-webkit-scrollbar{
+    width:0;
+}
+/* .imp{
+    cursor:pointer;
+    font-size: 2.0em;
+    /* color:rgba(0,0,255,0.6); */
+    /* font-weight: bold; */
+
+.hexagon {
+    top: 30vh;
+    left: 40%;
+    position: absolute;
+    margin: 0 auto;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    width: 100px; 
+    height: 63px;
+    box-sizing: border-box;
+    transition: all 1s;
+    border: 0.4vh solid transparent;
+}
+  
+
+
+.pg-3{
+    height:100vh;
+    width:100%;
+    position: relative;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+.box-under-pg-3{
+    width:95%;
+    height:15em;
+    margin:2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center{
+    display: flex;
+}
+
+
+.boxes{
+    position: relative;
+    width:6em;
+    align-items: center;
+    justify-content: center;
+    margin:4em;
+    
+    height:6em;
+    background: #ebebeb;
+}
+
+.boxes-1{
+    position: relative;
+    width:10em;
+    align-items: center;
+    justify-content: center;
+    margin:4em;
+    
+    height:20em;
+    background: #ebebeb;
+}
+
+.txtbox-3{
+    overflow: hidden;
+    display: flex;
+    width:100%;
+    height:6em;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Let Us see  Forms->about me ->Conclusion */
+
+.forms{
+    width:100%;
+    height:100vh;
+    display: flex;
+    /* background-color: pink; */
+}
+
+.forms-content{
+    width:100%;
+}
+
+.left-side-40{
+    /* background-color: rgb(128, 128, 128,0.4); */
+    position: relative;
+    width:100%;
+    height:100%;
+    z-index: -2;
+    object-fit: cover;
+}
+
+.left-side-40 img{
+    width:100%;
+    height:100%;
+    z-index: -2;
+    /* margin:16%; */
+}
+
+.head-f{
+    height:4em;
+    display:flex;
+    width:100%;
+    justify-content: center;
+}
+
+/* Form content */
+.detailed form{
+    height:80%;
+    position: relative;
+    padding-left:2em;
+}
+
+.name{
+    width:34em;
+    height:4em;
+    position: relative;
+}
+
+.mail
+{
+    width:34em;;
+    height:4em;
+    position: relative;
+}
+
+.msg{
+    position: relative;
+    height:6em;
+    width:60%;
+    padding-top:2em;
+}
+
+
+.about-me{
+    position:relative;
+    height:100vh;
+    width:100%;
+    /* background-color: yellow; */
+}
+
+.about_content{
+    position: relative;
+    margin:2%;
+}
+
+.about_content h3{
+    margin:2%;
+    font-size: 34px;
+}
+
+.descp{
+    width:100%;
+    height:90%;
+}
+
+
+
+  form {
+    width: 50%;
+    margin: 0 auto;
+    /* border:2px solid black; */
+  }
+
+  label{
+    font-weight: bold;
+    font-size: 28px;
+  }
+
+  input, textarea {
+    font-weight: bold;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    font-weight: bold;
+    font-size: 24px;
+    background:none;
+    color: #222;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  textarea {
+    height: 200px;
+  }
+
+
+  /* footer */
+
+  .foot{
+    position:relative;
+    display:flex;
+    align-items: center;
+    font-weight: bold;
+    justify-content: space-between;
+  }
+  .copyright{
+    bottom: -1%;
+    margin-left:1%;
+  }
+
+  /* .ball {
+    width: .8%;
+    height: 1%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background:grey;
+    /* border: 3px solid dodgerblue; 
+    border-radius: 100%;
+    pointer-events: none;
+  } */
+
+  .text{
+    width:30%;
+  }
